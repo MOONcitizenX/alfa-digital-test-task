@@ -1,0 +1,17 @@
+.button {
+	width: 100%;
+	border: none;
+	background-color: var(--green-color);
+
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: var(--white-color);
+
+	box-shadow: 0px 4px 8px #64bc45;
+	border-radius: 3px;
+
+	cursor: pointer;
+}

@@ -1,0 +1,130 @@
+:root {
+	--black-color: #000000;
+	--white-color: #ffffff;
+	--green-color: #319f1c;
+	--bold-text-color: #363636;
+	--gray-color: #797979;
+	--light-gray-color: #e4e4e4;
+	--footer-color: #363130;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+html {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: var(--black-color);
+}
+
+body {
+	position: relative;
+}
+
+h2,
+h3 {
+	color: var(--bold-text-color);
+}
+
+h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 38px;
+	line-height: 52px;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+	opacity: 0.85;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.wrapper-top {
+	background: linear-gradient(
+			180deg,
+			#ffffff 5.65%,
+			rgba(255, 255, 255, 0.94) 23%,
+			#ffffff 100%
+		),
+		url('./assets/images/topbg.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 3px;
+}
+
+.wrapper-main {
+	background-image: url('./assets/images/water.jpg'),
+		url('./assets/images/pipes.jpg');
+	background-repeat: no-repeat;
+	background-position: left -60px, right 10px;
+}
+.wrapper-bottom {
+	background-image: url('./assets/images/junilos-astra.jpg'),
+		url('./assets/images/cloud.png'), url('./assets/images/cloud-right.png'),
+		url('./assets/images/wrench.jpg');
+	background-repeat: no-repeat;
+	background-position: left 170px, -600px top, right 450px, right 322px;
+	background-size: 808px, 830px, 1017px, 254px;
+}
+
+.wrapper-footer {
+	background-color: var(--footer-color);
+	color: var(--white-color);
+}
+
+.container {
+	width: 100%;
+	max-width: 1620px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}

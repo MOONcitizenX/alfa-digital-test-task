@@ -1,0 +1,34 @@
+.form-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 170px 122px 114px 0;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.block-title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 52px;
+	color: var(--bold-text-color);
+
+	margin-bottom: 20px;
+}
+
+.block-sub-title {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: var(--black-color);
+
+	margin-bottom: 47px;
+}
