@@ -1,5 +1,7 @@
 # alfa-digital-test-task
 
+[Link to Deploy](https://alfa-digital-test-task.netlify.app/)
+
 ## Run Locally
 
 Clone the project
